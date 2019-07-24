@@ -13,8 +13,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    /**
+     * Esta funcion sirve para invocar la clase de Maps de Google
+     *
+     * @param view
+     */
+    public void goMaps(View view) {
+        Intent i = new Intent(this, MapsActivity.class);
+        startActivity(i);
+    }
+
+
     public void video(View view) {
-        Intent i = new Intent(this, Video.class );
+        Intent i = new Intent(this, Video.class);
         startActivity(i);
     }
 }
+

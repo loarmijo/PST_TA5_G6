@@ -12,6 +12,7 @@
         android:layout_height="73dp"
         android:layout_marginStart="136dp"
         android:layout_marginTop="154dp"
+
         android:onClick="video"
         android:text="Video"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,6 +34,7 @@
         android:layout_height="73dp"
         android:layout_marginStart="136dp"
         android:layout_marginTop="52dp"
+        android:onClick="goMaps"
         android:text="Mapa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCalendario" />
